@@ -12,6 +12,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Secrets (should use .env instead)
+aimath/config/secrets.py
+
 # Distribution / Packaging
 dist/
 build/
