@@ -45,3 +45,4 @@ aimath/database/storage/chroma_bak_manual/
 aimath/database/storage/chroma/
 *.db
 
+aimath/config/secrets.py
