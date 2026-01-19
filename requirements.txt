@@ -1,0 +1,14 @@
+agno
+streamlit
+chromadb
+faster-whisper
+sympy
+easyocr
+opencv-python-headless
+torch
+numpy
+pydantic
+python-dotenv
+Pillow
+sentence-transformers
+groq

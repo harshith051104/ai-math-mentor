@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aimath"
+version = "0.1.0"
+description = "Reliable Multimodal Math Mentor"
+requires-python = ">=3.10"
+dependencies = [
+    "agno",
+    "streamlit",
+    "chromadb",
+    "faster-whisper",
+    "easyocr",
+    "opencv-python-headless",
+    "torch",
+    "numpy",
+    "pydantic",
+    "python-dotenv",
+    "Pillow",
+    "sentence-transformers",
+    "groq",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aimath*"]

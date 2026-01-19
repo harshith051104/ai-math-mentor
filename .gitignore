@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+*.sqlite3
+temp/
+reproduce_issue.py
+reproduce_*.py
+reset_chroma.py
+verify_*.py
+force_cleanup.py
+verification_result.txt
+notes.md
+
+# ChromaDB
+aimath/database/storage/chroma_new/
+aimath/database/storage/chroma_backup_*/
+aimath/database/storage/chroma_trash_*/
+aimath/database/storage/chroma_bak_manual/
+aimath/database/storage/chroma/
+*.db
+
